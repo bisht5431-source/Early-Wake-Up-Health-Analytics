@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 100" width="320" height="100">
+
+  <!-- Bar chart bars -->
+  <rect x="0"  y="58" width="16" height="28" rx="3" fill="#055E56"/>
+  <rect x="22" y="38" width="16" height="48" rx="3" fill="#055E56"/>
+  <rect x="44" y="20" width="16" height="66" rx="3" fill="#055E56"/>
+
+  <!-- Heart shape -->
+  <path d="M76,46 C76,30 92,24 100,34 C108,24 124,30 124,46 C124,64 100,82 100,82 C100,82 76,64 76,46Z"
+        fill="none" stroke="#055E56" stroke-width="3.5" stroke-linejoin="round"/>
+
+  <!-- EKG pulse inside heart -->
+  <polyline points="82,48 86,48 90,36 94,60 98,44 102,48 110,48 120,48"
+            fill="none" stroke="#055E56" stroke-width="2.2"
+            stroke-linejoin="round" stroke-linecap="round"/>
+
+  <!-- Wordmark: Vita -->
+  <text x="140" y="62"
+        font-family="Georgia, 'Times New Roman', serif"
+        font-size="42" font-weight="700"
+        fill="#055E56" letter-spacing="-0.5">Vita</text>
+
+  <!-- Wordmark: Index (slightly lighter via opacity) -->
+  <text x="222" y="62"
+        font-family="Georgia, 'Times New Roman', serif"
+        font-size="42" font-weight="400"
+        fill="#055E56" opacity="0.72" letter-spacing="-0.5">Index</text>
+
+  <!-- Tagline -->
+  <text x="140" y="82"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="10.5" font-weight="400" fill="#055E56"
+        opacity="0.6" letter-spacing="2.8">HEALTH  ANALYTICS</text>
+
+  <!-- Thin rule between icon and wordmark -->
+  <line x1="132" y1="22" x2="132" y2="86"
+        stroke="#055E56" stroke-width="1" opacity="0.25"/>
+
+</svg>
